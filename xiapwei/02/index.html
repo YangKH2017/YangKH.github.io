@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>02零基础HTML编码(一）</title>
+    <link type="text/css" rel="stylesheet" href="index.css"/>
+</head>
+<body>
+<div class="content">
+    <div class="header">
+        <a class="logo" href="index.html">
+            <img src="02.png">
+        </a>
+        <div class="nav">
+            <ul>
+                <li><a class="nav-item" href="#">导航链接一</a></li>
+                <li><a class="nav-item" href="#">导航链接二</a></li>
+                <li><a class="nav-item" href="#">导航链接三</a></li>
+                <li><a class="nav-item" href="#">导航链接四</a></li>
+            </ul>
+   </div>
+</div>
+    <div class="contents">
+        <div class="box">
+            <h2>常见HTML语义化标签使用</h2>
+            <h3>文本、图像和链接</h3>
+            <h4>文章作者  文章发表时间</h4>
+            <p>常见HTML语义化文本标签主要：<br/>
+    标题标签:h1-h6(加粗，字打大小随数字增大而减小<br/>
+    段落标签：P<br/>
+    强调标签：strong、em（能够使字体加粗显示,效果与粗体文本标签b相同,，如<strong>这里有个粗体字</strong>）<br/>
+    粗体文本标签：b（能够使字体加粗显示,如<b>这里有个粗体字</b>）<br/>
+    斜体文本标签：i（能够使字体倾斜,如<i>这里有个斜体字</i>）<br/>
+    强制换行标签：br/（换行了）<br/>
+</p>
+            <p>图像标签：img  （向网页中插入图片，属性src表示图像源）
+   </p>
+            <img src="01.jpg">
+            <p>
+        链接标签：a   （链接网址，href属性表示链接的网址， target属性定义网址打开方式）<br/>
+        <a href="https://www.baidu.com">这里有一个连接链接到https://www.baidu.com</a>.<br/>
+        <a href="https://www.baidu.com" target="_blank">
+            这里有一个链接点击后打开新窗口链接到https://www.baidu.com</a>，
+    </p>
+            <p>下面有一条横线</p>
+            <hr>
+        </div>
+        <div class="box">
+            <h2>常见HTML语义化标签使用</h2>
+            <h3>列表</h3>
+            <h4>文章作者  文章发表时间</h4>
+            <p>列表分为有序列表ol和无序列表ul<br/>
+                li标签表示列表项目
+                这是不同类型有序列表<br/>
+            </p>>
+            <ol>
+                <li>列表项目一</li>
+                <li>列表项目二</li>
+                <li>列表项目三</li>
+            </ol>
+            <ol type="a">
+                <li>列表项目一</li>
+                <li>列表项目二</li>
+                <li>列表项目三</li>
+            </ol>
+            <ol type="I">
+                <li>列表项目一</li>
+                <li>列表项目二</li>
+                <li>列表项目三</li>
+            </ol>
+            <p>  这是不同类型无序列表</p>>
+            <ul>
+                <li>列表项目一</li>
+                <li>列表项目二</li>
+                <li>列表项目三</li>
+            </ul>
+            <ul type="square">
+                <li>列表项目一</li>
+                <li>列表项目二</li>
+                <li>列表项目三</li>
+            </ul>
+            <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落,换行了<br/>
+                这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http：//baidu.com">这里有一个连接链接到http：//baidu.com</a>，
+                这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+                <strong>这里有个粗体字</strong>这是一个很长的段落，
+                这是一个很长的段落，这是一个很长的段落
+            </p>
+            <img src="01.jpg">
+            <ul>
+                <li>列表项目一</li>
+                <li>列表项目二</li>
+                <li>列表项目三</li>
+            </ul>
+    </div>
+        <div class="box">
+            <h2>图片</h2>
+            <div class="pic">
+                    <p>好看的图片</p>
+                    <img src="01.jpg">
+                </div>
+            <div class="pic">
+                    <p>好看的图片</p>
+                    <img src="01.jpg">
+                </div>
+            <div class="pic">
+                    <p>好看的图片</p>
+                    <img src="01.jpg">
+                </div>
+            <div class="pic">
+                    <p>好看的图片</p>
+                    <img src="01.jpg">
+                </div>
+        </div>
+        <div class="box">
+            <h2>常见HTML语义化标签使用题</h2>
+            <h3>表格</h3>
+            <h4>文章作者 文章发表时间</h4>
+            <ol>
+    <li>排名1</li>
+    <li>排名2</li>
+    <li>排名3</li>
+</ol>
+            <p>
+                下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</p>
+            <table border="1">
+                <tr>
+                    <th>标签</th><th>描述</th><th>表头</th><th style="width: 200px">表头</th>
+                </tr>
+                <tr>
+                    <td>table</td> <td>定义表格</td><td rowspan="2">rowspan="2"</td><td><a href="#">操作</a></td>
+                </tr>
+                <tr>
+                    <td>th</td><td>定义表头</td><td ><a href="#">操作</a></td>
+                </tr>
+                <tr>
+                    <td>tr</td> <td>定义表格的行</td ><td rowspan="2">表示跨两行</td><td><a href="#">操作</a></td>
+                </tr>
+                <tr>
+                    <td>td</td> <td>定义表格的单元格</td><td ><a href="#">操作</a></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="op">colspan="2"</td> <td colspan="2"  class="op" >表示跨两列</td>
+                </tr>
+            </table>
+        </div>
+        <div class="box login">
+            <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+            <form action="" method="post">
+                <table>
+                    <tr>
+                    <td  class="T-l"><label for="user">请输入邮箱地址</label></td>
+                    <td ><input type="text"id="user" value="这是一个文本输入框" ></td>
+                </tr>
+                    <tr><td></td>
+                    <td class="txt"> 邮箱地址请按要求格式输入</td>
+                </tr>
+                    <tr>
+                    <td class="T-l">  <label for="pw1">请输入密码</label></td>
+                    <td> <input type="text"id="pw1" value="这是一个文本输入框" ><br/></td>
+                </tr>
+                    <tr>
+                    <td class="T-l"> <label for="pw2">请重复输入密码</label></td>
+                    <td><input type="text" id="pw2" value="这是一个文本输入框"></td>
+                </tr>
+                    <tr><td></td>
+                    <td class="txt"> 密码为6-16位英文数字</td>
+                </tr>
+                    <tr><td class="T-l"><label>性别</label></td>
+                    <td>
+                        <input type="radio" id="man" name="sex" value="man" checked="checked" >
+                        <label for="man">男</label>
+                        <input type="radio"  id="woman" name="sex" value="women">
+                        <label for="woman">女</label>
+                    </td>
+                </tr>
+                    <tr><td class="T-l"><label>城市</label></td>
+                    <td>
+                        <select name="city" >
+                            <option value="BJ" >北京</option>
+                            <option value="SH" selected ="selected">上海</option>
+                            <option value="GZ">广州</option>
+                            <option value="SZ">深圳</option>
+                        </select>
+                    </td>
+                </tr>
+                    <tr><td class="T-l"> <label>爱好</label></td>
+                    <td>
+                        <input type="checkbox" id="sports"  name="hobby" value="sports" ><label for="sports">运动</label>
+                        <input type="checkbox" id="art" name="hobby" value="art"><label for="art">艺术</label>
+                        <input type="checkbox" id="science" name="hobby" value="science"><label for="science">科学</label>
+                    </td>
+                </tr>
+                    <tr><td class="T-l t-a">    <label>个人描述</label></td>
+                    <td><textarea>这是一个多行输入框，输入您的个人描述</textarea></td>
+                    </tr>
+                </table>
+                <input type="submit" value="确认提交">
+        </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>版权所有&copy</p>
+    </div>
+</div>
+</body>
+</html>
